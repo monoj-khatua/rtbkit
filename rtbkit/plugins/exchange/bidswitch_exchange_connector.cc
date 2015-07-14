@@ -124,7 +124,7 @@ BidSwitchExchangeConnector::init() {
     configuration_.addField(
         "cid",
         GENERATE_MACRO_FOR(data.cid)
-    ).optional().snippet();
+    ).optional();
 
     configuration_.addField(
         "advertiser_name",
